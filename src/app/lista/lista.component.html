@@ -1,0 +1,24 @@
+<h2> Lista dos Alunos </h2>
+
+<table id="tabelinha" class="table table-striped rounded">
+    <thead>
+        <tr>
+            <th> Nome </th>
+            <th> Sobrenome </th>
+            <th> Email </th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+<tbody>
+    <tr *ngFor="let aluno of alunos">
+        <td>{{ aluno.nome }}</td>
+        <td>{{ aluno.sobrenome }}</td>
+        <td>{{ aluno.email }}</td>
+        <td class="botoes">
+            <button (click)="atualizarAluno(aluno.id)" id="att" class="btn btn-primary">Atualizar</button>
+            <button (click)="deletarAluno(aluno.id)" id="del" class="btn btn-primary" style="margin-left: 10px">Deletar</button>
+            <button (click)="alunoDetalhes(aluno.id)" id="det" class="btn btn-info" style="margin-left: 10px;">Detalhes</button>
+        </td>
+    </tr>
+</tbody>
+</table>

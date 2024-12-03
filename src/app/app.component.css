@@ -1,0 +1,30 @@
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: black;
+    border-radius: 5px;
+}
+
+a:hover{
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    border: none;
+ 
+    transform:scale(1.1);
+    background-color: rgb(40, 26, 231);
+    color: black;
+}
+
+header{
+    background-color: black;
+}
+
+footer{
+    position: absolute;
+    
+}

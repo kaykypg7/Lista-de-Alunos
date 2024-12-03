@@ -1,0 +1,58 @@
+
+
+td>button:hover{
+
+   transition: transform 0.3s ease;
+   border: none;
+
+   transform:scale(1.2);
+   background-color: rgb(0, 102, 255);
+
+
+}
+
+
+
+#det:hover{
+
+    transition: transform 0.3s ease;
+   border: none;
+
+   transform:scale(1.2);
+   background-color: rgb(47, 141, 148);
+
+}
+
+#del:hover{
+
+    transition: transform 0.3s ease;
+   border: none;
+
+   transform:scale(1.2);
+   background-color: rgb(184, 19, 1);
+
+}
+
+#att:hover{
+    transition: transform 0.3s ease;
+   border: none;
+
+   transform:scale(1.1);
+   background-color: rgb(32, 73, 218);
+
+}
+
+tr{
+    background-color: rgb(198, 198, 198);
+    color: darkblue;
+}
+#tabelinha{
+    border-radius: 50px;
+    width: 75%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+h2{
+    text-align: center;
+}

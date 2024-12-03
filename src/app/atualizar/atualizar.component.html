@@ -1,0 +1,25 @@
+<div class="col-md-6 offset-md-3">
+
+    <h3> Atualizar Aluno</h3>
+    <form (ngSubmit) = "onSubmit()" action="">
+    <div class="form-group">
+        <label> Nome: </label>
+        <input type = "text" class = "form-control" id = "Nome" [(ngModel)]= "aluno.nome"  name = "Nome">
+       </div> 
+    
+    <div class = "form-group">
+        <label> Sobrenome: </label>
+        <input type = "text" class = "form-control" id = "Sobrenome" [(ngModel)]="aluno.sobrenome" name = "Sobrenome">
+        </div>
+    
+        <div class = "form-group">
+            <label> Email: </label>
+            <input type = "text" class = "form-control" id = "email" [(ngModel)]="aluno.email" name = "email">
+        </div>
+    
+    <div class = "form-group" style = "margin-top: 10px;">
+                <button class = "btn btn-success" type = "submit"> Atualizar </button>
+            </div> 
+    
+    </form>
+    </div>
