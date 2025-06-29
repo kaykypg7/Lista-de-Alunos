@@ -40,3 +40,14 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ficheiros compilados e de dependências
+/dist/
+/tmp/
+/out-tsc/
+/node_modules/
+
+# Ficheiros de log e de ambiente
+*.log
+*.env
+.env.local

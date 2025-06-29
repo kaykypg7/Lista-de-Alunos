@@ -1,0 +1,5 @@
+node_modules/      # Ignora a pasta de dependências do Node.js
+dist/              # Ignora a pasta de build do Angular
+.git/              # Ignora o repositório Git
+*.log              # Ignora arquivos de log
+.env               # Ignora arquivos de variáveis de ambientedocker build -t frontend-angular .
